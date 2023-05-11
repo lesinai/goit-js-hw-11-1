@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+  font-size: 13px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.photo-card {
+  display: flex;
+  flex-direction: column;
+  width: calc((100% - 60px) / 4);
+}
+
+.photo-card .info {
+  height: 80px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.info-item {
+  width: calc((100% - 15px) / 4);
+}
+
+b {
+  display: block;
+}
