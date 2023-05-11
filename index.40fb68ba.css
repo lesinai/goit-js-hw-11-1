@@ -1,0 +1,2 @@
+*,:before,:after{box-sizing:border-box}p{margin:0;font-size:13px}img{max-width:100%;height:100%;display:block}.hidden{display:none}.gallery{flex-wrap:wrap;gap:20px;margin-top:30px;display:flex}.photo-card{width:calc(25% - 15px);flex-direction:column;display:flex}.photo-card .info{height:80px}.info{align-items:center;gap:5px;display:flex}.info-item{width:calc(25% - 3.75px)}b{display:block}
+/*# sourceMappingURL=index.40fb68ba.css.map */
